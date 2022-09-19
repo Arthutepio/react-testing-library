@@ -16,8 +16,10 @@ it('Verifica se a página mostra uma imagem', () => {
   renderWithRouter(<NotFound />);
 
   const image = screen
-    // eslint-disable-next-line max-len
-    .getByRole('img', { name: /pikachu crying because the page requested was not found/i });
+    .getByRole(
+      'img',
+      { name: /pikachu crying because the page requested was not found/i },
+    );
   expect(image).toHaveAttribute(
     'src',
     'https://media.giphy.com/media/kNSeTs31XBZ3G/giphy.gif',
