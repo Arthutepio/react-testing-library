@@ -12,8 +12,7 @@ it('Verifica se a página contém um heading h2 com o texto Encountered pokémon
   expect(text).toBeInTheDocument();
 });
 
-// eslint-disable-next-line max-len
-it('Verifica se é exibido o próximo pokémon da lista quando o botão Próximo pokémon é clicado', () => {
+it('Verifica o próximo pokémon da lista quando o botão Próximo pokémon é clicado', () => {
   renderWithRouter(<App />);
 
   const buttonNext = screen.getByRole('button', { name: /próximo pokémon/i });
