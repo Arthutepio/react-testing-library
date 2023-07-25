@@ -2,7 +2,7 @@
 
 O projeto de testes com a React Testing Library foi uma experiência gratificante, permitindo-me aprofundar meus conhecimentos em testes automatizados para aplicações React. Neste desafio, fui incumbido de escrever testes para uma Pokédex já existente, utilizando Jest e a biblioteca React Testing Library. O objetivo era garantir a corretude dos requisitos da aplicação por meio de testes abrangentes e confiáveis.
 
-![Exemplo app front](assets/front-example.png)
+![Exemplo app front](public/RTL.png)
 
 ## 🔧 Instalação
 Para utilizar o repositório no desenvolvimento, siga os seguintes passos:
